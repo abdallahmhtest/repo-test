@@ -1,0 +1,40 @@
+{
+  "name": "expressjs-course",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ex1": "node exercises/01-basic-middleware.js",
+    "ex2": "node exercises/02-route-middleware.js",
+    "ex3": "node exercises/03-http-methods.js",
+    "ex4": "node exercises/04-url-parameters.js",
+    "ex5": "node exercises/05-query-parameters.js",
+    "ex6": "node exercises/06-request-body.js",
+    "ex7": "node exercises/07-xml-handling.js",
+    "ex8": "node exercises/08-static-files.js",
+    "ex9": "node exercises/09-forms-upload.js",
+    "ex10": "node exercises/10-validation.js",
+    "sol1": "node solutions/01-basic-middleware-solution.js",
+    "sol2": "node solutions/02-route-middleware-solution.js",
+    "sol3": "node solutions/03-http-methods-solution.js",
+    "sol4": "node solutions/04-url-parameters-solution.js",
+    "sol5": "node solutions/05-query-parameters-solution.js",
+    "sol6": "node solutions/06-request-body-solution.js",
+    "sol7": "node solutions/07-xml-handling-solution.js",
+    "sol8": "node solutions/08-static-files-solution.js",
+    "sol9": "node solutions/09-forms-upload-solution.js",
+    "sol10": "node solutions/10-validation-solution.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "multer": "^2.0.2",
+    "xml2js": "^0.6.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0"
+  },
+  "keywords": ["express", "nodejs", "api", "course"],
+  "author": "Qotra",
+  "license": "MIT"
+}
